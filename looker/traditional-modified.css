@@ -144,12 +144,13 @@ td.rowCell.indexCell.transposed {
   text-align: left !important;
 }
 
-/* Force center-alignment for numerical data cells */
-td.numeric, td.measure {
+/* Override Looker's dynamic right-alignment classes and inline styles */
+td.reportTable.right.rowCell.measure.numeric.transposed {
   text-align: center !important;
 }
 
-/* Force center-alignment for the numerical column header */
-th.numeric, th.measure {
+/* Ensure the header matches (using similar high specificity) */
+th.headerCell.measure.numeric.transposed,
+th.right {
   text-align: center !important;
 }
