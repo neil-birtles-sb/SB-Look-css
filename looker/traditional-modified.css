@@ -155,6 +155,6 @@ th.right {
   text-align: center !important;
 }
 
-.headerCell.nonNumeric.transposed {
+.headerCell.rowCell.transposed {
   text-align: center;
 }
