@@ -155,7 +155,6 @@ th.right {
   text-align: center !important;
 }
 
-/* Force center-alignment for the transposed non-numeric date header */
-th.reportTable.headerCell.rowCell.dimension.nonNumeric.transposed {
-  text-align: center !important;
+.headerCell.nonNumeric.transposed {
+  text-align: center;
 }
