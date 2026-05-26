@@ -143,3 +143,13 @@ th.headerCell {
 td.rowCell.indexCell.transposed {
   text-align: left !important;
 }
+
+/* Force center-alignment for numerical data cells */
+td.numeric, td.measure {
+  text-align: center !important;
+}
+
+/* Force center-alignment for the numerical column header */
+th.numeric, th.measure {
+  text-align: center !important;
+}
