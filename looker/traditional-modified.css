@@ -138,3 +138,8 @@ th.headerCell {
   padding: 5px;
   box-sizing: border-box;
 }
+
+/* Force left-alignment for the transposed dimension column */
+td.rowCell.indexCell.transposed {
+  text-align: left !important;
+}
