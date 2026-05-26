@@ -59,7 +59,7 @@ th.headerCell {
 }
 
 .headerCell.merged {
-  text-align: left !important;
+  text-align: right !important;
   background-color: #ffffff !important;
 }
 
