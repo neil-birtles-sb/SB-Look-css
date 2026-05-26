@@ -158,3 +158,6 @@ th.right {
 .headerCell.rowCell.nonNumeric.transposed {
   text-align: center !important;
 }
+.reportTable.headerCell.rowCell.dimension.nonNumeric.transposed {
+  text-align: center !important;
+}
