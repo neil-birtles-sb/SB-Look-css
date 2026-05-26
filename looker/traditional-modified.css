@@ -49,6 +49,7 @@
   border-collapse: separate;
   border-spacing: 3px;
   table-layout: fixed;
+  text-align: center !important;
 }
 
 th.headerCell {
@@ -93,7 +94,7 @@ th.headerCell {
 }
 
 .numeric {
-  text-align: centre;
+  text-align: center;
 }
 
 .negative {
