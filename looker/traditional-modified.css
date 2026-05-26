@@ -156,8 +156,10 @@ th.right {
 }
 
 .headerCell.rowCell.nonNumeric.transposed {
-  text-align: center !important;
+  text-align: center !important;
 }
-.reportTable.headerCell.rowCell.dimension.nonNumeric.transposed {
+
+/* Updated Selector: Space added after .reportTable to target descendant cells */
+.reportTable .headerCell.rowCell.dimension.nonNumeric.transposed {
   text-align: center !important;
 }
