@@ -58,7 +58,7 @@ th.headerCell {
 }
 
 .headerCell.merged {
-  text-align: left !important;
+  text-align: left;
   background-color: #ffffff !important;
 }
 
@@ -156,5 +156,5 @@ th.right {
 }
 
 .headerCell.rowCell.nonNumeric.transposed {
-  text-align: center;
+  text-align: center !important;
 }
