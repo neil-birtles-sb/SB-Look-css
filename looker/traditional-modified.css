@@ -89,7 +89,7 @@ th.headerCell {
 }
 
 .nonNumeric {
-  text-align: left;
+  text-align: left !important;
 }
 
 .numeric {
