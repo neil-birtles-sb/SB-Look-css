@@ -51,6 +51,7 @@
   table-layout: fixed;
 }
 
+
 th.headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
@@ -161,5 +162,9 @@ th.right {
 
 /* Updated Selector: Space added after .reportTable to target descendant cells */
 .reportTable .headerCell.rowCell.dimension.nonNumeric.transposed {
+  text-align: center !important;
+}
+
+th.reportTable.headerCell.rowCell.dimension.nonNumeric.transposed {
   text-align: center !important;
 }
